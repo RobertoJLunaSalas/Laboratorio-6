@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3.1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+            <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mr-auto p-2">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="pagina1.html" class="nav-link">Pagina#1</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="pagina2.html" class="nav-link">Pagina#2</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="pagina3.html" class="nav-link">Pagina#3</a>
+                    </li>
+                </ul>
+                <span class="navbar-text"><b>Estas en la Pagina 2</b></span>
+            </div>
+        </nav>
+
+        <h1 class="p-3">¿Para que sirven los robots?</h1>
+        <p>Los robots son creados con el propósito de resolver alguna necesidad humana específica, y no todos tienen forma de animales o personas, muchos incluso están formados simplemente por piezas sin forma alguna. Sin embargo, todos los robots que se crean hoy en día poseen tres elementos indispensables: Componente Mecánico (estructura/movimiento), Componente Eléctrico (fuente de energía), y un Componente de Computación o Programación (cerebro del robot).</p>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Asimo
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Creado por Honda en el 2000. Es capaz de caminar en dos piernas y reconocer los rostros y voces, identifica gestos, posturas y objetos en movimientos.
+                    <img src="img/asimo.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Icub
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Diseñado para entender cómo aprenden los niños interactuando con el mundo desde que nacen y así ayudar al desarrollador de la inteligencia artificial.
+                    <img src="img/icub.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Topio
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Se mueve en dos piernas y es buenísimo jugando ping-pong gracias a un sistema de inteligencia artificial que le permite aprender y mejorar sus habilidades. 
+                    <img src="img/topio.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="m-3">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              2° Dato Curioso
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 300px;">
+                Corea del sur, uno de los países con mas robots del mundo estuvo desarrollando un código ético para robots llamado carta ética de los robots. Se estuvo creando para evitar que el abuso de persona sobre los robots pueda afectar a otras personas.
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
